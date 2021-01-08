@@ -1,0 +1,66 @@
+.service-item button {
+  cursor: pointer;
+}
+.service-item .service-item-title{
+  text-align: center;
+  font-size: 50px;
+}
+.service-item .button {
+  background: #187cff;
+  border: 1px solid;
+  border-color: #478eea;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.service-item .content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.service-item .start {
+  margin-top: 30px;
+  display: none;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.service-item .start.flex-display-1{
+  display: flex;
+}
+
+.service-item .start .start-left {
+  width: 40%;
+  margin-left: 30px;
+}
+.service-item .start .start-left .time-box {
+  margin-top: 40px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.service-item .start .output-box {
+  height: 200px;
+  overflow: auto;
+  background: #f0f0f0;
+  width: 50%;
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.ready-button,
+.start-button {
+  margin: 0 auto;
+  height: 40px;
+  width: 160px;
+  font-size: 16px;
+  letter-spacing: 6px;
+}
+
+.button:hover {
+  background: #0b99ff;
+}
